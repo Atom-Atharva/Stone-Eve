@@ -23,7 +23,12 @@
 
 ## Procedure
 
--   Create React App Setup
--   Tailwind Css Setup in index.css
--   Installed react-router-dom in Body.js
--   Home route is added.
+-   [AS] Create React App Setup
+-   [AS] Tailwind Css Setup in index.css
+-   [AS] Installed react-router-dom in Body.js
+-   [AS] Home route is added.
+-   [AS] Added Header.
+-   [AS] SVG of Logo (STONE EVE).
+-   [AS] About Route is added.
+-   [AS] Cart Route is added.
+-   [AS] WinterSale Route is added.
