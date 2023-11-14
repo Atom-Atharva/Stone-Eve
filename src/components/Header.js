@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
+import useLocation from "../utils/useLocation";
 
 const Header = () => {
+    const location = useLocation();
+
     return (
-        <div className="flex justify-between m-4 p-4 bg-transparent">
-            <div>
+        <div className="flex justify-between m-4 p-4 bg-transparent border-b-4">
+            <div className="logo">
                 <svg
                     preserveAspectRatio="xMidYMid meet"
                     data-bbox="79.719 18.325 131.698 43.537"
@@ -59,7 +62,7 @@ const Header = () => {
                     </g>
                 </svg>
             </div>
-            <div>
+            <div className="elements">
                 <ul className="flex">
                     <li className="mx-4 px-4 text-xl">
                         <Link to="/">Home</Link>
@@ -70,8 +73,10 @@ const Header = () => {
                     <li className="mx-4 px-4 text-xl">
                         <Link to="/winter_sale">Winter Sale</Link>
                     </li>
-                    <li className="mx-4 px-4 text-xl">Location</li>
-                    <li className="mx-4 px-4 text-xl">Log In</li>
+                    <li className="mx-4 px-4 text-xl">{location}</li>
+                    <li className="mx-4 px-4 text-xl">
+                        <Link to="/login">Login</Link>
+                    </li>
                     <li className="mx-4 px-4 text-xl">
                         <Link to="/cart">Cart</Link>
                     </li>
