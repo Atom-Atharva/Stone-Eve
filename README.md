@@ -32,3 +32,7 @@
 -   [AS] About Route is added.
 -   [AS] Cart Route is added.
 -   [AS] WinterSale Route is added.
+-   [AS] Made Home-page display.
+-   [AS] Shpping_card component is added.
+-   [AS] mockData is added
+-   [AS] using of map function to addmultiple cards.
