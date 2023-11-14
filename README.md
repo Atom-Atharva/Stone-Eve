@@ -5,7 +5,7 @@
 1. FRAMEWORK
     - Mock Data.
     - React
-    - Taiwind
+    - Tailwind
 2. Features
     - Authentication
     - Payment (EXTRA)
@@ -32,7 +32,11 @@
 -   [AS] About Route is added.
 -   [AS] Cart Route is added.
 -   [AS] WinterSale Route is added.
+-   [AS] Login Page Added.
+-   [AS] Redux Store Added to App.
+-   [AS]Fetch City and Country with GEO-LOCATION.
 -   [AS] Made Home-page display.
 -   [AS] Shpping_card component is added.
 -   [AS] mockData is added
 -   [AS] using of map function to addmultiple cards.
+

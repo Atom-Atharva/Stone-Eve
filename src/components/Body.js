@@ -3,6 +3,7 @@ import Home from "./Home";
 import About from "./About";
 import WinterSale from "./WinterSale";
 import Cart from "./Cart";
+import Login from "./Login";
 
 const Body = () => {
     const appRouter = createBrowserRouter([
@@ -21,6 +22,10 @@ const Body = () => {
         {
             path: "/cart",
             element: <Cart />,
+        },
+        {
+            path: "/login",
+            element: <Login />,
         },
     ]);
 
