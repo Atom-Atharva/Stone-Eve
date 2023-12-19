@@ -7,7 +7,7 @@ const useLocation = () => {
     function success(position) {
         const latitude = position.coords.latitude;
         const longitude = position.coords.longitude;
-        console.log(`Latitude: ${latitude}, Longitude: ${longitude}`);
+        // console.log(`Latitude: ${latitude}, Longitude: ${longitude}`);
         // Latitude: 23.239124, Longitude: 77.38224366666665
 
         fetchData(latitude, longitude);
