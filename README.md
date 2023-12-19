@@ -34,9 +34,8 @@
 -   [AS] WinterSale Route is added.
 -   [AS] Login Page Added.
 -   [AS] Redux Store Added to App.
--   [AS]Fetch City and Country with GEO-LOCATION.
--   [AS] Made Home-page display.
--   [AS] Shpping_card component is added.
--   [AS] mockData is added
--   [AS] using of map function to addmultiple cards.
-
+-   [AS] Fetch City and Country with GEO-LOCATION.
+-   [AG] Made Home-page display.
+-   [AG] Shpping_card component is added.
+-   [AG] mockData is added
+-   [AG] using of map function to addmultiple cards.
