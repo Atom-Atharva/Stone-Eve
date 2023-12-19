@@ -35,7 +35,8 @@
 -   [AS] Login Page Added.
 -   [AS] Redux Store Added to App.
 -   [AS] Fetch City and Country with GEO-LOCATION.
+-   [AS] Created Cart Slice for Redux Store
 -   [AG] Made Home-page display.
--   [AG] Shpping_card component is added.
+-   [AG] Shopping_card component is added.
 -   [AG] mockData is added
--   [AG] using of map function to addmultiple cards.
+-   [AG] using of map function to add multiple cards.
