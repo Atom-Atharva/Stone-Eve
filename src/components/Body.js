@@ -4,6 +4,7 @@ import About from "./About";
 import WinterSale from "./WinterSale";
 import Cart from "./Cart";
 import Login from "./Login";
+import Card from "./Card";
 
 const Body = () => {
     const appRouter = createBrowserRouter([
@@ -26,6 +27,10 @@ const Body = () => {
         {
             path: "/login",
             element: <Login />,
+        },
+        {
+            path: "/cards/:cardId",
+            element: <Card />,
         },
     ]);
 

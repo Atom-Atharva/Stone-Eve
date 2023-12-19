@@ -40,3 +40,5 @@
 -   [AG] Shopping_card component is added.
 -   [AG] mockData is added
 -   [AG] using of map function to add multiple cards.
+-   [AG] put link to in shoppingCard.
+-   [AG] structure of ShoppingCard.
